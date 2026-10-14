@@ -1,3 +1,4 @@
+
 package com.example;
 
 import org.junit.Test;
@@ -20,6 +21,12 @@ public class AppTest {
         assertEquals(0.0, App.simpleInterest(0, 5, 3), 0.001);
     }
 
+    // Intentional failure test
+    @Test
+    public void testFailureCase() {
+        assertEquals(999.0, App.simpleInterest(1000, 5, 3), 0.001);
+    }
+
     @Test(expected = IllegalArgumentException.class)
     public void testNegativePrincipal() {
         App.simpleInterest(-1000, 5, 3);
@@ -35,5 +42,3 @@ public class AppTest {
         App.simpleInterest(1000, 5, -3);
     }
 }
-// Intentional failing test cases for Jenkins demonstration
-// Intentional failure test for Jenkins
