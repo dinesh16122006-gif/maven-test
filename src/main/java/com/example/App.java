@@ -1,9 +1,7 @@
 package com.example;
 
 public class App {
-    public static boolean isPalindrome(String str) {
-        if (str == null) return false;
-        String rev = new StringBuilder(str).reverse().toString();
-        return str.equals(rev);
+    public static double simpleInterest(double principal, double rate, double time) {
+        return principal * rate * time / 100.0;
     }
 }

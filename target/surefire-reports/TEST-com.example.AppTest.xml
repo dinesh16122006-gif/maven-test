@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.example.AppTest" time="0.029" tests="2" errors="0" skipped="0" failures="0" flakes="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AppTest" time="0.067" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Dinesh kumar\maven-test\target\test-classes;C:\Users\Dinesh kumar\maven-test\target\classes;C:\Users\Dinesh kumar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Dinesh kumar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar"/>
+    <property name="java.class.path" value="C:\Users\Dinesh kumar\maven-test\target\test-classes;C:\Users\Dinesh kumar\maven-test\target\classes;C:\Users\Dinesh kumar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Dinesh kumar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dinesh kumar\AppData\Local\Temp\surefire8117806161655599786\surefirebooter-20261014174401769_3.jar C:\Users\Dinesh kumar\AppData\Local\Temp\surefire8117806161655599786 2026-10-14T17-44-01_641-jvmRun1 surefire-20261014174401769_1tmp surefire_0-20261014174401769_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dinesh kumar\AppData\Local\Temp\surefire5017376972955955615\surefirebooter-20261014175842259_3.jar C:\Users\Dinesh kumar\AppData\Local\Temp\surefire5017376972955955615 2026-10-14T17-58-40_813-jvmRun1 surefire-20261014175842259_1tmp surefire_0-20261014175842259_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Dinesh kumar\maven-test\target\test-classes;C:\Users\Dinesh kumar\maven-test\target\classes;C:\Users\Dinesh kumar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Dinesh kumar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar"/>
+    <property name="surefire.test.class.path" value="C:\Users\Dinesh kumar\maven-test\target\test-classes;C:\Users\Dinesh kumar\maven-test\target\classes;C:\Users\Dinesh kumar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Dinesh kumar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Dinesh kumar"/>
     <property name="user.language" value="en"/>
@@ -29,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dinesh kumar\AppData\Local\Temp\surefire8117806161655599786\surefirebooter-20261014174401769_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dinesh kumar\AppData\Local\Temp\surefire5017376972955955615\surefirebooter-20261014175842259_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.11+9-LTS-211"/>
@@ -57,6 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testStringPalindrome" classname="com.example.AppTest" time="0.02"/>
-  <testcase name="testNullString" classname="com.example.AppTest" time="0.001"/>
+  <testcase name="testSimpleInterest" classname="com.example.AppTest" time="0.007"/>
+  <testcase name="testZeroRate" classname="com.example.AppTest" time="0.0"/>
+  <testcase name="testZeroPrincipal" classname="com.example.AppTest" time="0.0"/>
 </testsuite>
