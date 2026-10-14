@@ -35,3 +35,4 @@ public class AppTest {
         App.simpleInterest(1000, 5, -3);
     }
 }
+// Intentional failing test cases for Jenkins demonstration
