@@ -42,3 +42,4 @@ public class AppTest {
         App.simpleInterest(1000, 5, -3);
     }
 }
+// Palindrome JUnit test update
